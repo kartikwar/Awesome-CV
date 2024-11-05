@@ -20,6 +20,16 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 
+\usepackage{hyperref}           % Load hyperref without options
+\usepackage[normalem]{ulem}      % For underlining
+\definecolor{darkblue}{RGB}{0, 0, 139}
+\hypersetup{
+    colorlinks=true,             % Enable colored links
+    urlcolor=darkblue                % Set URL color to blue
+}
+
+\newcommand{\ulhref}[2]{\href{#1}{\textbf{\uline{#2}}}}
+
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
