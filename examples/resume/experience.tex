@@ -16,22 +16,18 @@
     {Sept 2020 - Present} % Date
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities	
-      \item{\textbf{Background Removal API} : This API (used in web tool 
-      \ulhref{https://backgroundly.io/}{backgroundly}) removes backgrounds from 
-      customer-uploaded images and leaves only the salient 
-      content in the image. This tool processes approximately 200,000 
-      daily requests for custom image engraving services on products 
-      like mugs and t-shirts, saving about 3 million USD annually. In this 
-      project, I led the development and training of the state-of-theart 
-      \ulhref{https://arxiv.org/abs/2003.07711}{fba-matting} algorithm and trained a U-Net model for accurate saliency 
-      detection, achieving a visual acceptance rate of 87 percent. 
-      Technologies Used: python, pytorch, opencv }
-      \item{\textbf{Create Portrait API} : This api imparts a portrait photo effect to
-      regular photographs,i.e.,the main subject(s) is maintained in sharp focus, 
-      and at the same time, the background is gently blurred to add depth and 
-      aesthetic appeal to the photograph. In this project, I combined the 
-      open-source mega-depth model with in-house background removal service. 
-      Technologies Used: python, pytorch, opencv, pillow }
+      \item{\textbf{Background Removal API} : Led development of a Background Removal API for \ulhref{https://backgroundly.io/}{backgroundly.io}, processing 
+      200,000+ daily requests for custom engravings on mugs and t-shirts, 
+      saving approximately 3 Million USD annually. Engineered and trained 
+      state-of-the-art \ulhref{https://arxiv.org/abs/2003.07711}{FBA-Matting} and 
+      U-Net models, achieving an 87% visual acceptance rate in saliency 
+      detection. Technologies: python, pytorch, opencv }
+      \item{\textbf{Create Portrait API} : Developed Create Portrait API to transform 
+      regular photos into portrait-style images by maintaining subject 
+      focus while gently blurring the background for depth and 
+      aesthetic enhancement. Integrated open-source Mega-Depth 
+      model with in-house background removal services. 
+      Technologies: Python, PyTorch, OpenCV, Pillow. }
 	\end{cvitems}
     }
 %---------------------------------------------------------    
@@ -44,15 +40,15 @@
     {Feb 2020 - Sept 2020} % Date
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities	
-      \item{\textbf {Mask Detection Model} : This model is responsible for identifying individuals not wearing masks. It was deployed in 
-      factories (using IIOT) and real-time alerts were sent when the count exceeded a predefined threshold during the 
-      COVID-19 pandemic. I trained a \ulhref{https://roboflow.com/model/mobilenet-ssd-v2}{SSD mobilenet v2} object-detection model 
-      and achieved a precision of 85 percent. 
-      Technologies Used: python, tensorflow , opencv }
-      \item{\textbf{Connector Detection Model}: This model identifies pipe connectors 
-      in oil factories, to prevent drilling in unsafe areas. I trained a 
-      \ulhref{https://github.com/ultralytics/yolov3}{YOLO v3} object-detection model and achieved a precision of 88 percent. 
-      Technologies Used: python, tensorflow , opencv}
+        \item{\textbf{Mask Detection Model}: Developed and deployed a Mask Detection Model to 
+        identify individuals not wearing masks in factories during the COVID-19 pandemic, triggering 
+        real-time alerts when counts exceeded thresholds via IIoT. Trained an 
+        \ulhref{https://roboflow.com/model/mobilenet-ssd-v2}{SSD MobileNet V2} object-detection model, 
+        achieving 85\% precision. Technologies: Python, TensorFlow, OpenCV.}        
+        \item{\textbf{Connector Detection Model}: Developed a model to identify 
+        pipe connectors in oil factories, preventing drilling in unsafe areas. 
+        Trained a \ulhref{https://github.com/ultralytics/yolov3}{YOLO v3} object-detection model, achieving 88\% precision. 
+        Technologies: Python, TensorFlow, OpenCV.}
 	\end{cvitems}
     }
 %---------------------------------------------------------    
@@ -65,16 +61,14 @@
     {Sept 2018 - Dec 2019} % Date
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item{\textbf{Table Detection Model}: This deep learning model is used to 
-        detect table like structures in a pdf document.I trained a Faster Rcnn (VGG16) 
-        network on pdf documents using the concept of curriculum learning. Achieved a 
-        precision of 84 percent. 
-        Technologies Used: python, tensorflow, opencv}        
-        \item{\textbf{Template Detection Service}: This service compares the layout and 
-        structure of two PDF documents.If they are found to be similar,they 
-        are categorized under the same class or ’template’. To accomplish this, 
-        I built and trained a Siamese network utilizing a pre-trained VGG16 net. 
-        Technologies Used: python, tensorflow, opencv, MongoDb}        
+        \item{\textbf{Table Detection Model}: Developed a deep learning model to 
+        detect table-like structures in PDF documents. Trained a Faster 
+        R-CNN (VGG16) network using curriculum learning, 
+        achieving 84\% precision. Technologies: Python, TensorFlow, OpenCV.}      
+        \item{\textbf{Template Detection Service}: Developed a service to compare the 
+        layout and structure of PDF documents, classifying similar documents under 
+        the same template. Built and trained a Siamese network using a pre-trained 
+        VGG16 model. Technologies: Python, TensorFlow, OpenCV, MongoDB.}       
 	\end{cvitems}
     }
 %---------------------------------------------------------    
@@ -87,21 +81,9 @@
     {June 2016 - Sept 2018} % Date
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {\textbf{Update Synchronize API}: This API synchronizes merchant updates and reviews across 
-        various social platforms such as Facebook,LinkedIn, Twitter, and Quikr. The API is used 
-        by over 19,000 customers and handles around 50,000 updates on a weekly basis. 
-        I made REST APIs, services, lambda functions, cron jobs and created deployement pipeline on 
-        ECS. 
-        Technologies Used: Python, NodeJs, ECS, Docker, Lambda, Express, MongoDB, Route 53, Ubuntu, SQS, Python}
-        \item {\textbf{Update Categorization Service}: This service fetches all the product updates made by the 
-        customers on their websites and then categorizes them into either offers, discounts, or sale price. 
-        I used natural language processing models such as ‘bag of keywords’ to classify the updates 
-        into categories. Technologies Used: Python, Scikit Learn, Pandas, Matplotlib, MongoDB, MySql }
-        \item {\textbf{Purchase Probability Model}: This model analyses sales data to predict probability 
-        of purchase based on customer characteristics. It helped reduced the customer acquistion cost by 
-        50 percent and icreased the conversion rate from under 2 to 20 percent. I trained the classifier using 
-        logistic regression and decision trees. 
-        Technologies Used: Python, Scikit Learn, Pandas, Matplotlib, MongoDB}
+        \item{\textbf{Update Synchronize API}: Developed an API to synchronize merchant updates and reviews across social platforms like Facebook, LinkedIn, Twitter, and Quikr, serving over 19,000 customers and processing 50,000 weekly updates. Built REST APIs, services, Lambda functions, cron jobs, and created deployment pipelines on ECS. Technologies: Python, NodeJS, ECS, Docker, Lambda, Express, MongoDB, Route 53, Ubuntu, SQS.}
+        \item{\textbf{Update Categorization Service}: Designed a service to fetch and categorize customer product updates into offers, discounts, or sale prices using natural language processing algorithms such as ‘bag of words’ and an SVC (Support Vector Classifier). Technologies: Python, Scikit-Learn, Pandas, Matplotlib, MongoDB, MySQL.}
+        \item{\textbf{Purchase Probability Model}: Created a model to analyze sales data and predict purchase probabilities based on customer characteristics, reducing acquisition costs by 50\% and increasing conversion rates from under 2\% to 20\%. Trained classifiers using logistic regression and decision trees. Technologies: Python, Scikit-Learn, Pandas, Matplotlib, MongoDB.}
       \end{cvitems}
     }
 
