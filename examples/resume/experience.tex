@@ -25,6 +25,8 @@
       Technologies: python, pytorch, opencv }
       \item{\textbf{Create Portrait API} : \newline
       Designed an API to transform regular photos into portrait‐style images by maintaining subject focus and subtly blurring the background.
+      \newline
+      Collected data for training the model using snowflake and looker. 
       \newline 
       Partnered with cross-functional teams to integrate the \ulhref{https://www.cs.cornell.edu/projects/megadepth/}{MegaDepth model} with in‐house background removal services.
       \newline
@@ -90,8 +92,12 @@
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item{\textbf{Update Synchronize API}: Orchestrated an API to synchronize merchant updates and reviews across social platforms like Facebook, LinkedIn, Twitter, and Quikr, serving over 19,000 customers and processing 50,000 weekly updates. \newline Implemented REST APIs, services, Lambda functions, cron jobs, and created deployment pipelines on ECS. \newline Technologies: Python, NodeJS, ECS, Docker, Lambda, Express, MongoDB, Route 53, Ubuntu, SQS.}
-        \item{\textbf{Update Categorization Service}: Collaborated on an NLP-based service that fetched and categorized customer product updates into offers, discounts, or sale prices using natural language processing algorithms such as ‘bag of words’ and an SVC (Support Vector Classifier). \newline Technologies: Python, Scikit-Learn, Pandas, Matplotlib, MongoDB, MySQL.}
-        \item{\textbf{Purchase Probability Model}: Conceptualized a predictive model to analyze sales data and predict purchase probabilities based on customer characteristics, reducing acquisition costs by 50\% and increasing conversion rates from under 2\% to 20\%. \newline Developed classifiers using logistic regression and decision trees. \newline Technologies: Python, Scikit-Learn, Pandas, Matplotlib, MongoDB.}
+        \item{\textbf{Update Categorization Service}: Collaborated on an NLP-based service that fetched and categorized customer product updates into offers, discounts, or sale prices using natural language processing algorithms such as ‘bag of words’ and an SVC (Support Vector Classifier). \newline 
+        Handled class imbalance between updates by using appropriate metrics like f1-score instead of accuracy. 
+        Technologies: Python, Scikit-Learn, Pandas, Matplotlib, MongoDB, MySQL.}
+        \item{\textbf{Purchase Probability Model}: Conceptualized a predictive model to analyze sales data and predict purchase probabilities based on customer characteristics, reducing acquisition costs by 50\% and increasing conversion rates from under 2\% to 20\%. \newline
+        Performed feature engineering and exploratory data analysis to find the right features for classification.
+        \newline Developed classifiers using logistic regression and decision trees. \newline Technologies: Python, Scikit-Learn, Pandas, Matplotlib, MongoDB.}
       \end{cvitems}
     }
 
